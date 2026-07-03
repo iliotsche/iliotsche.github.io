@@ -24,4 +24,4 @@ Zahl_Spieler = int(input("Bitte waehl deine Zahl"))
 
 while True:
     if Zahl_Spieler == Zahl_Computer:
-        Print(f"")
+        Print(f"Die Zahl{Zahl_Computer}"!)
