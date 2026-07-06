@@ -24,4 +24,16 @@ Zahl_Spieler = int(input("Bitte waehl deine Zahl"))
 
 while True:
     if Zahl_Spieler == Zahl_Computer:
-        Print(f"Die Zahl{Zahl_Computer}"!)
+        print(f"Die Zahl{Zahl_Computer} ist richtig!")
+        break
+    elif Zahl_Spieler < Zahl_Computer:
+        print(f"Die Zahl {Zahl_Spieler} ist zu klein!")
+        
+    elif Zahl_Spieler > Zahl_Computer:
+        print (f"die Zahl{Zahl_Spieler} ist zu gross!")
+        
+    elif Zahl_Spieler < 100:
+        print ("Zahl zu gross")
+    else:
+        print("bitte gib eine gültige Zahl ein")
+        
